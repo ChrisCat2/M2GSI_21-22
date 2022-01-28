@@ -31,9 +31,9 @@
                             .then(data => {
                                 d3.select('#voeux').append('div').attr('id','cartevoeux_'+i).node().append(data.documentElement);
                                 d3.select('#cartevoeux_'+i)
-                                    .select("#tspan").text(d['A qui adressez-vous ces voeux ?']);
+                                    .select("#tspan45618").text(d['A qui adressez-vous ces voeux ?']);
                                 d3.select('#cartevoeux_'+i)
-                                    .select("#tspan").text(d['Que souhaitez-vous ?']);
+                                    .select("#tspan45630").text(d['Que souhaitez-vous ?']);
                             });
                     })
                 })            
